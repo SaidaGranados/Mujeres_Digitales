@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"><!--Lista de estilos general-->
+    <link rel="stylesheet" href="./index/index.css"><!--Lista de estilos particular-->
+    <title>Document</title>
+</head>
+<body>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt accusantium quibusdam fuga esse beatae, ad aspernatur in quisquam consectetur, mollitia deleniti? Reiciendis ab facere aliquam tempora repellat facilis quia!</p>
+
+    <!--Ejemplo de input-->
+
+    <input type="text" id="txt_nombre" class="txtcaja" placeholder="Nombre" maxlength="20">
+    <input type="number" id="txt_cedula" class="txtcaja" placeholder="Cedula">
+    <input type="password" id="txt_password" class="txtcaja" placeholder="Password">
+    <input type="date" id="txt_fechanacimiento">
+    <input type="file" id="subirarchivos">
+
+    <!--Ejemplo de tabla-->
+
+    <table>
+        <tr>
+            <th class="colorencabezado">Nombre</th>
+            <th class="colorencabezado">Apellidos</th>
+            <th class="colorencabezado">Dirección</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Castiblanco</td>
+            <td>Cll 12 #4-34</td>
+        </tr>
+
+        <tr>
+            <td>Juan</td>
+            <td>Perez</td>
+            <td>Cll 34 #1-34</td>
+        </tr>
+
+        <tr>
+            <td>Pedro</td>
+            <td>Sanchez</td>
+            <td>Cra 3 #30-04</td>
+        </tr>     
+    </table>
+
+    <!--Ejemplo de lista-->
+
+    <ul>
+        <li>Lista 1</li>
+        <li>Lista 2</li>
+        <li>Lista 3</li>
+        <li>Lista 4</li>
+    </ul>
+    
+    <!--Ejemplo de enlace-->
+    <a href="contactenos.html">Contactenos</a>
+
+    <!--Ejemplo de select-->
+
+    <label for="genero">Seleccione el genero</label>
+    <select name="genero" id="genero">
+        <option value="F">Femenino</option>
+        <option value="M">Masculino</option>
+    </select>
+
+    <!--Ejemplo de imagen que contiene un enlace-->
+    <a href="contactenos.html">
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/37c95e8c-d6bf-403f-b84e-9da172737182/d5xprh5-8abd687c-c181-4f56-94ed-9012966ca561.png/v1/fill/w_320,h_320,strp/mancha_de_pintura_png_by_ladyany1_d5xprh5-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzIwIiwicGF0aCI6IlwvZlwvMzdjOTVlOGMtZDZiZi00MDNmLWI4NGUtOWRhMTcyNzM3MTgyXC9kNXhwcmg1LThhYmQ2ODdjLWMxODEtNGY1Ni05NGVkLTkwMTI5NjZjYTU2MS5wbmciLCJ3aWR0aCI6Ijw9MzIwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.ZmvUy-_AGvQBMdvoz20exsDRIrMQWb9v7zl0kNhx6tc">
+    </a>
+
+    
+    <!--Ejemplo de area de texto-->
+
+    <!--Se puede modificar las dimensiones con row y col o traves de CSS-->
+    <!--<textarea id="comentarios" cols="10" rows="5"></textarea>-->
+    <textarea id="comentarios" maxlength="15" placeholder="Descripción"></textarea>
+    
+    <!--Ejemplo de input de tipo button-->
+
+    <!--Botón usando la etiqueta input-->
+    <input type="button" value="enviar" id="elboton">
+
+    <!--Botones usando la etiqueta div-->
+    <div id="otroboton" class="btn">Enviar</div>
+    <div id="otroboton2" class="btn">Borrar</div>
+
+    <!--Botón usando la etiqueta button-->
+
+</body>
+</html>
