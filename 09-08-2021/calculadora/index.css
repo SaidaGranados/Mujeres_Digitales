@@ -1,0 +1,84 @@
+body{
+    background: url('https://static.vecteezy.com/system/resources/previews/002/190/718/non_2x/cartoon-style-background-with-cute-clouds-vector.jpg');
+}
+
+.flex-container{
+    display: flex;
+    background: #ff5722cf;
+    border: 1px;
+    height: 79%;
+    width: 12%;
+    margin-top: 80px;
+    margin-left: 160px;
+    border-radius: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+    padding: 1.5%;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px rgb(158, 154, 154);
+    
+}
+
+.flex-container2{
+    display: flex;
+    background: white;
+    border: 1px;
+    height: 300px;
+    width: 95%;
+    margin-top: 20px;
+    flex-direction: row;
+    align-items: center;
+    padding: 2%;
+    flex-wrap: wrap;
+    align-content: stretch;
+    padding-top: 1px;
+    border-radius: 5px;
+    justify-content: space-between;
+}        
+
+input.txtcaja {
+    border-radius: 5px;
+    height: 40px;
+    width: 45%;
+    box-shadow: 5px 3px 3px 1px rgb(0 0 0 / 20%);
+    border: solid 1px gray;
+    font-size: 30px;
+
+}
+.btn{
+    width: 49%;
+    height: 25%;
+    text-align: center;
+    font-size: 49px;
+    background: #009688;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    opacity: 0.5;
+    padding-top: 15px;
+    font-family: sans-serif;
+    flex-direction: column;        
+}
+
+.btn:hover{
+    background:rgb(12, 231, 231);
+}
+
+#btncalcular{
+    background: #ff8100;
+    width: 100%;
+    font-size: 20px;
+    font-family: fantasy;
+    padding-top: 30
+}
+
+#titulo{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 90px;
+    position: absolute;
+    bottom: 390px;
+    left: 550px;
+}
