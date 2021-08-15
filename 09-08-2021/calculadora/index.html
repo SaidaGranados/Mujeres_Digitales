@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculadora</title>
+</head>
+
+<body>   
+
+    <script>
+        var valor1=0;
+        var valor2=0;
+
+        var sumar = function(){
+            alert(valor1 + valor2);
+        }
+
+        var restar = function(){
+            alert(valor1 - valor2);
+        }
+
+        var multiplicar = function(){
+            alert(valor1 * valor2);
+        }
+
+        var dividir = function(){
+            alert(valor1 / valor2);
+        }
+
+        var obtener = function(){
+            alert('Obteniendo datos ...') 
+            var a = document.getElementById('valor1').value
+            var b = document .getElementById('valor2').value
+            valor1 = parseInt(a);
+            valor2 = parseInt(b);     
+        }
+    </script>
+
+
+<h1 id="titulo">Calculadora ...</h1>
+<div>
+    <div class="flex-container">
+        <input type="text" id="valor1" class="txtcaja" maxlength="20">
+        <input type="text" id="valor2" class="txtcaja" maxlength="20">
+
+        <div class="flex-container2">
+            <div onclick="sumar()" id="btnsumar" class="btn">+</div>
+            <div onclick="restar()"id="btnrestar" class="btn">-</div>
+            <div onclick="multiplicar()" id="btnmultiplicar" class="btn">X</div>
+            <div onclick="dividir()" id="btndividir" class="btn">/</div>
+            <div onclick="obtener()" id="btncalcular" class="btn">OBTENER</div>
+        </div>        
+    </div>   
+</div>
+
+</body>
+</html>
