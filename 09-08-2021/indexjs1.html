@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        // Uso de alert
+        alert('Hola mundo')
+        alert(5*5)
+        alert(5+5)
+
+        // Declarar variables
+        var a = 5;
+        var b = 4;
+        var c = a * b;
+        alert(c+c)
+
+        var a = '5';
+        var b = 4;
+        alert('El resultado es ' + a+b)
+
+        var cadena = 'El resultado es: ' // Variable tipo String
+        alert(cadena + 4*9)
+        var valor = 10000; // Variable funciontipo number
+        var estado = true; // Variable tipo boolean
+        var estado2 = false;
+        var cantidad = 1.5; // Variable de tipo float
+        var datos = [0,1,2,3,4,5,6,7,8,9] // Variable tipo array
+        var datos = ['John','Juan']
+        var datos = [true,false,true,true]
+        var datos = ['css', 'html', 'js', 'node','express']
+
+        // Funciones
+        var multiplica = function() {
+
+        // Con alert
+        //alert(1)
+        //alert(2)
+        //alert(3)
+        //alert(4)
+        
+        // Con consola
+        console.log(1)
+        console.log(2)
+        console.log(3)
+        console.log(4)
+        }
+        multiplica()
+        
+    </script>
+
+    
+    <!-- Aqui llamamos la funcion multiplica() -->
+    <!-- LLamo la función multiplica desde onclick -->
+    <div onclick="multiplica()">Multiplicar</div> 
+    <div>Sumar</div>
+    <div>Restar</div>
+    <div>Dividir</div>
+
+
+</body>
+</html>
