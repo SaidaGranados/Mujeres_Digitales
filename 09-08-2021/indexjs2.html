@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+    
+    // EJEMPLOS DE OPERACIONES MATEMATICAS USANDO FUNCIONES - QUEMANDO CODIGO
+    var valor1 = 30;
+    var valor2 = 15;
+    var nombre = 'John'
+    var apellido = 'Castiblanco'
+
+    var multiplica = function(){
+        console.log(valor1 * valor2)            
+    }
+
+    var suma = function(){
+        console.log(valor1 + valor2)            
+    }
+
+    var resta = function(){
+        console.log(valor1 - valor2)            
+    }
+
+    var dividir = function(){
+        console.log(valor1 / valor2)            
+    }
+    
+    var nombrecompleto = function(){        
+        console.log(nombre + ' ' + apellido) //Coloco comillas ' ' para separar las dos variable nombre y apellido//
+    }
+
+
+    </script>
+
+    <!-- Si quiero que me aparezcan valor fijos en el input como 30 y 15. value para colocar esos valores 
+    <input type="text" id="valor1" value="30">
+    <input type="text" id="valor2" value="15"> -->
+
+
+    <!--Ejemplo de operaciones matematicas usando funciones - Quemando codigo-->
+    <div onclick="multiplica()">Multiplicar</div>
+    <div onclick="suma()">Sumar</div>
+    <div onclick="resta()">Restar</div>
+    <div onclick="dividir()">Dividir</div>    
+    <div onclick="nombrecompleto()">Nombre completo</div>
+
+</body>
+</html>
