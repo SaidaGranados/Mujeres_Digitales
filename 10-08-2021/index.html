@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        // Ciclo for
+        for (var index = 1; index <= 20; index++) {
+            console.log('Hola mundo' + index)
+        }
+
+        // Ciclo for para iterar de 2 en 2
+        for (var index = 0; index <= 20; index = index + 2) {
+            console.log('Hi')            
+        }
+            
+        // Ejemplo tabla de multiplicar del 5
+        for (var a =0; a <= 20; a++) {
+             console.log('5 ' + ' X ' + a + ' = ' + (5 * a))          
+        }
+        
+        // Condicional If
+
+        // Ejemplo comparando tipos de datos
+        var dato1 = '5'
+        var dato2 = 5
+
+        if (dato1 === dato2){ // === para que me compare '5' con 5 no solo como carater sino como tipo de datos
+            console.log('Si se cumplió la condición')
+        }
+        else{
+            console.log('No se cumplió la condición')
+        }
+
+        // Ejemplo con booleano
+        if(true){
+            console.log('Si se cumplío la condición')
+        }else{
+            console.log('No se cumplió la condición')
+        }
+
+        // Ejemplo con operador logico && 
+        if(4<4 && 3>4 && 1 > 0){ // V + V = V | V + F = F | F + F = F
+            console.log('Si se cumplió la condición')
+        }else{
+            console.log('No se cumplio la condición')
+        }
+
+        // Ejemplo con operador logico  ||
+        if(1==10 || 4 == 4 || 3 == (2+1)){ // V + V = V | V + F = V | F + F = F
+            console.log('Si se cumplió la condición')
+        }else{
+            console.log('No se cumplio la condición')
+        }
+
+        // Ejemplo operador !=,<=,>=
+        if(true != false){
+            console.log('Si se cumplió la condición')
+        }else{
+            console.log('No se cumplio la condición')
+        }
+
+        // Ejemplo operador !==
+        if('5' != 5){
+            console.log('Si se cumplió la condición')
+        }else{
+            console.log('No se cumplio la condición')
+        }
+
+        // Ciclo while
+
+        // Ejemplo con int
+        var dato1 = 100
+        while(dato1 < 120){
+            console.log('imprimir')
+            dato1 = dato1 + 1;           
+        }
+
+        // Ejemplo con String
+        var nombre = '' 
+        while (nombre == '') {
+            console.log('imprimir')
+            nombre = 'john' // Con esto solo me lo va a imprimir una vez
+        }
+
+        // Ejemplo 1 con booleano
+        var booEstado = true
+        while (booEstado) {
+            console.log('Imprimir')
+            booEstado = false; // Con esto solo me lo va a imprimir una vez
+        }
+
+        // Ejemplo 2 con booleano
+        var booEstado = true;
+        var contador = 0;
+        while (booEstado) {
+            contador = contador + 1;
+            console.log('Imprimir')
+            if (contador == 5) {
+                booEstado = false;
+            }            
+        }
+
+        // Ciclo switch
+        var dato = 100;
+        var analizar = function(){
+
+            switch (dato) {
+                case 100:
+                    console.log('El valor es 100')
+                    break;
+                case 200:
+                    console.log('El valor es 200')
+                    break;
+                case 300:
+                    console.log('El valor es 300')
+                    break;
+                default:
+                    console.log('Ninguno')
+                    break;
+            }
+            dato = dato + 100
+        }
+
+        // Comparativo con elseIf
+        var dato = 100;
+        var analizar2 = function(){
+
+            if(dato == 100){
+                console.log('100')
+            }
+
+            else if(dato == 200){
+                console.log('200')
+            }
+
+            else if(dato == 300){
+                console.log('300')
+            }
+            else {
+                console.log('Ninguno')
+            }
+
+            dato = dato + 100
+        }
+
+        // Comparativo con If
+        var dato = 100;
+        var analizar3 = function(){
+
+            if(dato == 100){
+                console.log('100')
+            }
+
+            if(dato == 200){
+                console.log('200')
+            }
+
+            if (dato == 300){
+                console.log('300')
+            }
+            
+            if (dato != 100 && dato != 200 & dato != 300){
+                console.log('ninguno')
+            }
+            dato = dato + 100
+        
+        }
+
+    </script>
+
+    <div onclick="analizar()">Analizar</div>
+    <div onclick="analizar2()">Analizar2</div>
+    <div onclick="analizar3()">Analizar3</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
