@@ -3,7 +3,8 @@
 Durante la clase se trataron los siguientes temas:
 
 - Separamos y dejamos el codigo Js en un arvivo aparte (index.js)
-- Arrays: declaracion e instanciacion blocks/Tables insert, Code fold, Search replace, Read only, - Agrupacion de datos con clave-valor y listas dentro de listas
+- Arrays: declaracion e instanciacion
+- Agrupacion de datos con clave-valor y listas dentro de listas
 - Metodo arrays: push
 - Agregar datos quemados con arrays
 - Agregar datos trayendo la informacion del html a traves de un id o una clase
