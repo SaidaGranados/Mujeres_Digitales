@@ -22,6 +22,23 @@ var guardar = function(){
 
 var cargar = function(){
     console.log('ssssssssssss')
+    swal({
+        title: "Are you sure?",
+        text: "Once deleted, you will not be able to recover this imaginary file!",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+          swal("Poof! Your imaginary file has been deleted!", {
+            icon: "success",
+          });
+        } else {
+          swal("Your imaginary file is safe!");
+        }
+      });
+      
     //document.getElementById('nombre').value = localStorage.getItem('nombre')
     //document.getElementById('apellido').value = localStorage.getItem('apellido')
 }
