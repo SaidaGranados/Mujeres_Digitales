@@ -28,6 +28,7 @@ console.log('hola mundo')
 
 // Ejercicio de alamacenar  informacion usando arrays . Convertir de un tipo array a String
 // Utilizamos JSON:stringify() para convertir un objeto js {},{},{} a un formato JSON [{},{},{}]
+// JSON.stringify es de JSON a cadena de texto
 var misdatos = [];
 var guardar = function(){
     var nombre = document.getElementById('nombre').value
@@ -40,12 +41,26 @@ var guardar = function(){
     
 }
 
+
+var cargar = function(){
+    console.log('ssssssssssss')
+    //document.getElementById('nombre').value = localStorage.getItem('nombre')
+    //document.getElementById('apellido').value = localStorage.getItem('apellido')
+}
+
+
+//Para validar si datos existe
+var existe = localStorage.getItem('datos')
+console.log(existe)
+if(existe != null){
+    console.log('si entro')
+    misdatos = JSON.parse(localStorage.getItem('datos').toString())
+}
+
+
 // Metodo JSON: JSON.parse() para convertir de un formato JSON [{},{},{}] lo que esta en local storage a un objeto js {},{},{}
-misdatos = JSON.parse(localStorage.getItem('datos'.toString())
-
-
-
-
+// JSON.parse convierte de cadena de texto a JSON
+//misdatos = JSON.parse(localStorage.getItem('datos'.toString()))
 
 
 
