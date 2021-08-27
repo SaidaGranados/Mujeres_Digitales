@@ -1,0 +1,21 @@
+.boton {
+    border: solid 1px white;
+    width: 20px;
+    text-align: center;
+    float: left;
+    background: black;
+    color: white;
+    margin: 1px;
+    cursor:pointer;
+}
+
+div#contenedor {
+width: 109px;
+}
+
+input#resultado {
+width: 87px;
+}   
+
+
+
