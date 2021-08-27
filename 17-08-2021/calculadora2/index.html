@@ -1,0 +1,41 @@
+<!--Ejercicio Calculadora 2-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="contenedor">
+        <input type="text" id="resultado">
+
+        <div onclick="concatenar(7)" class="boton">7</div>
+        <div onclick="concatenar(8)" class="boton">8</div>
+        <div onclick="concatenar(9)" class="boton">9</div>
+        <div onclick="concatenar(4)" class="boton">4</div>
+        <div onclick="concatenar(5)" class="boton">5</div>
+        <div onclick="concatenar(6)" class="boton">6</div>
+        <div onclick="concatenar(1)" class="boton">1</div>
+        <div onclick="concatenar(2)" class="boton">2</div>
+        <div onclick="concatenar(3)" class="boton">3</div>
+        <div onclick="concatenar(0)" class="boton">0</div>
+
+        <div onclick="concatenar('+')" class="boton">+</div>
+        <div onclick="concatenar('-')" class="boton">-</div>
+        <div onclick="concatenar('*')" class="boton">*</div>
+        <div onclick="concatenar('/')" class="boton">/</div>
+
+        <div onclick="evaluar()" class="boton">=</div>    
+        <div onclick="borrar()" class="boton">C</div>
+    </div>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
