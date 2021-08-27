@@ -1,0 +1,33 @@
+nav.navbar.navbar-expand-lg {
+    background: linear-gradient(90deg, #FC5C7D 0%, #6A82FB 100%);
+}
+
+a.nav-link {
+    color: white;
+}
+
+a.nav-link.disabled {
+    color: white;
+}
+
+a.nav-link.disabled {
+    color: white;
+}
+
+.miboton{
+    color: white;
+    border-color: white;
+}
+
+.miboton:hover{
+    background: #E264C1 ;
+    color:white;
+    border: solid 1px white;          
+}
+.botoncitos{
+    background: #2196f321;
+}
+
+a.botoncitos{
+    background: #2196f321;
+}
