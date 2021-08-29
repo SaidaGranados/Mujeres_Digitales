@@ -10,7 +10,7 @@ Durante la clase se tocaron los siguientes temas:
 -Creacion formulario login
 -Validacion de campos del formulario con Javascript
 
-## NOTAS
+## NOTAS.
 GRID BOOTSTRAP  🐻
 -El grid me permite mostrar las cosas de una u otra manera dependiendo de la resolucion de la pantalla
 -Desde el punto de la izquierda hasta la derecha siempre hay 12 columnas repartidas de punto a punto
