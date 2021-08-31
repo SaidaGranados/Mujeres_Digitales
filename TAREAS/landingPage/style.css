@@ -1,0 +1,134 @@
+
+
+a.nav-link {
+    color: black;
+}
+
+a.nav-link.disabled {
+    color: white;
+}
+
+a.nav-link.disabled {
+    color: white;
+}
+
+.miboton{
+    color: white;
+    border-color: white;
+}
+
+.miboton:hover{
+    background: #E264C1 ;
+    color:white;
+    border: solid 1px white;          
+}
+
+div#navbarSupportedContent {
+    
+    margin-left: 45%;    
+    width: 400px;
+    text-align: center;
+    margin-left: calc(50% - 200px);
+    
+}
+
+.letra{
+    text-transform: capitalize;
+    font-weight: bolder;
+
+}
+
+.imagen{
+    position: absolute;
+    top: calc(50% - 111px);
+    right: 4%;
+    text-align: center;
+}
+
+img{
+    position:relative;
+    width:100%;
+    margin-bottom: 2px;
+}
+
+
+.card.card-body {
+    border: #F86464 double;
+}
+
+h2.font-weight-light {
+    position: relative;
+    bottom: 25px;
+    font-size: 43px;
+    font-family: auto;
+}
+
+
+#frame-testimonios {
+    background: white;
+    height: 40vh;
+    border-top: solid 1px #b1adad;
+    margin-top: 3px;
+    padding-top:2%
+    
+    
+}
+
+.footer{
+    background: black;
+    height: 50vh;
+    border-top: solid 1px #F86464;
+}
+
+h5{
+    color:white;
+}
+
+li.nav-item {
+    color: black;
+}
+
+
+ul.nav.nav-pills {
+    margin-left: 30%;
+    margin-right:-1%
+}
+
+h5.card-title {
+    color: black;
+}
+
+h1{
+    font-size: 4em;
+    line-height: 1;    
+    text-transform: uppercase;
+    font-weight: 700;    
+    margin-bottom: 0.35em;
+
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto-encima{
+    position: absolute;
+    top: calc(50% - 111px);
+    right: 4%;
+    text-align: center;
+    color:white;
+    text-align: right;
+    line-height: inherit;    
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+#cart{
+    position: absolute;
+    left:68%;
+    bottom:10px;
+    width: 30px;
+}
