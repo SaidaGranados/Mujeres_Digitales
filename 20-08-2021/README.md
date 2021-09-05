@@ -93,18 +93,6 @@ EXPRESS:
 -Instalacion de node y del nmp (ver link guia)
 -Crear la carpeta "nodeapp" en /home/saida/github/proyectodeprueba/nodeapp
 -Generar el paquete package.json con “npm init” en /home/saida/github/proyectodeprueba/nodeapp. (ver link guia)
--Asi quedo mi archivo de configuración:
-{
-  "name": "nodeapp",
-  "version": "1.0.1",
-  "description": "aplicacion",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "saida granados",
-  "license": "ISC"
-}
 -app.js:archivo de inicio tambien le dicen server.js oindex.js,
 -Crear un workplace para almacenar nodeapp
 -Crear un arhivo dentro de la carpeta nodeapp llamado app.js.
@@ -162,12 +150,6 @@ Proceso:
 nombreapi.use('/',express.stactic(__dirname + '/nombrecarpetadondeestamihtml'))
 "dirname":hace referencia al directorio local osea a la raiz del proyecto
 
-PASO A PASO DE CONFIGURACION DE EXPRESS Y RENDERIZACION HTML
-const { response, request } = require('express');
-var express = require('express')
-var app = express()
-var port = 3000;
-app.use('/',express.static(__dirname + '/Pagina'))
 
 ## LINKS   💻
 - Infografía Api:
