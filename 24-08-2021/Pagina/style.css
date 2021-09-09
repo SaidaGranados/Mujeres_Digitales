@@ -1,0 +1,7 @@
+div#login {
+    width: 400px;
+    text-align: center;
+    margin-left: calc(50% - 200px);
+    margin-top: 13%;
+}
+
