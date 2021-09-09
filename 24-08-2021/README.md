@@ -2,13 +2,10 @@
 
 Temas abordadados en clase:
 
--Resumen Modelo Vista Controlador
--Formas de capturar informacion: a traves de formularios,
--Configuración para trabajar en una SPA
--Modelo vista controlador MVC
--Definición de rutas y controlador
--Validaciones del lado del controlador
--Herramienta postman
+- Resumen Modelo Vista Controlador
+- Formas de capturar informacion: a traves de formularios,url y javascript
+- Encriptación de un password
+- Inicio de sesión - Login
 
 
 # NOTAS   🐌
