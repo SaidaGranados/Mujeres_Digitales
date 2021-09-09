@@ -13,7 +13,7 @@ MODELO VISTA CONTROLADOR:
 - Ruta:Nombres de destino
 - Controlador: Valida la información antes de que llegue a su destino
 - Vista: Todo lo que ve el usuario final
-- Modelo: Procesamiento en base de datos (insertar,leer,actualizar,eliminar info)
+- Modelo: Procesamiento en base de datos (insertar,leer,actualizar,eliminar info).
 VISTA ==> RUTA ==> CONTROLADOR ==> MODELO
 VISTA <== CONTROLADOR <== MODELO
 
