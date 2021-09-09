@@ -29,4 +29,7 @@ app.post('/Usuario/Registro',function(request,response){
 app.post('/Usuario/Login',function(request,response){
     
     Usuarios.login(request,response)
-})
+})*/
+
+
+
