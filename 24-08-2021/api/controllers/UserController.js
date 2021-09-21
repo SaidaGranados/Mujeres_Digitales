@@ -1,6 +1,6 @@
 var  MD5 = require('md5')
 
-// Configuración de UserController.
+// Configuración de UserController..
 
 // Creo un array de objetos usercontroller
 var usercontroller = {}
