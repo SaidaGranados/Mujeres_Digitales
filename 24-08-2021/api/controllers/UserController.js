@@ -37,7 +37,7 @@ usercontroller.guardar = function(request,response){
     // Voy a almacenar ese "name" dentro de misdatos
     misdatos.push(datos.name)
 
-
+   
     // Despues de almacenar el dato responde con un mensaje
     response.json({state:true,mensaje:'usuario guardado',usuario:misdatos})
 }
