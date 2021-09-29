@@ -1,78 +1,181 @@
-
-
-a.nav-link {
-    color: black;
+header {
+    background-color: #f8f9fa;
+    /*background: white;*/
+    
 }
 
-a.nav-link.disabled {
-    color: white;
+
+a.nav-link{
+    color:black;
+    font-weight: bolder; 
+    
+
 }
 
-a.nav-link.disabled {
-    color: white;
+a.nav-link:hover{         
+    
+    text-decoration: underline;
 }
 
-.miboton{
-    color: white;
-    border-color: white;
-}
-
-.miboton:hover{
-    background: #E264C1 ;
+button.btn {    
     color:white;
-    border: solid 1px white;          
-}
-
-div#navbarSupportedContent {
-    
-    margin-left: 45%;    
-    width: 400px;
-    text-align: center;
-    margin-left: calc(50% - 200px);
+    margin-left: 59px;
+    font-weight: bolder;    
+    background: #b687ce;
+    font-family: 'Playfair Display', serif;    
+    border-radius: 0;
+    border: solid 4px #b687ce;    
     
 }
 
-.letra{
-    text-transform: capitalize;
-    font-weight: bolder;
 
+button.btn:hover {    
+    color:black;      
+    background:#b687ce;   
 }
 
-.imagen{
-    position: absolute;
-    top: calc(50% - 111px);
-    right: 4%;
+
+#steps{
+    margin-bottom: 10%;
     text-align: center;
+    margin-top: 4%;  
 }
 
-img{
-    position:relative;
+#imagen{
+    
     width:100%;
     margin-bottom: 2px;
+    
 }
 
 
 .card.card-body {
-    border: #F86464 double;
+    border: #ce4ed2 double;
+    background: #f5e6f5;
 }
 
-h2.font-weight-light {
+h1{
+    font-size: 7em;
+    line-height: 1;    
+    font-family: 'Dancing Script', cursive;
+}
+
+
+strong {
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.texto-encima{
+    position: absolute;
+    top: calc(45% - 111px);
+    right: 4%;
+    text-align: center;
+    color:white;
+    text-align: right;
+    line-height: inherit;    
+    text-decoration: none;
+    cursor: pointer;    
+        
+}
+
+
+h2 {
     position: relative;
     bottom: 25px;
-    font-size: 43px;
-    font-family: auto;
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;    
+    padding-top:7px;
+    color:black;
+    margin-bottom: 5%;
+    display:inline-block;
+
+}
+
+h2::after,h2::before{
+    content:'';
+    position:absolute;
+    width:120px;
+    height: 3px;
+    background-color: currentColor;
+    top:0.8em;
+}
+
+h2::before{
+    left:-140px;
+}
+
+h2::after{
+    right:-140px;
 }
 
 
+h3 {
+    position: relative;
+    bottom: 25px;
+    font-size: 55px;
+    font-weight: bold;
+    /*font-family: 'Playfair Display', serif;*/
+    font-family: 'Dancing Script', cursive;
+    padding-top:5px;
+    color:white;
+
+}
+
 #frame-testimonios {
-    background: white;
+    
     height: 40vh;
     border-top: solid 1px #b1adad;
     margin-top: 3px;
-    padding-top:2%
+    padding-top:2%;
+    background: url(/home/saida/github/proyectodeprueba/foto111.jpg);
+    opacity: 0.8;   
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+h5{
+    color:white;
+}
+
+
+h5.card-title {
+    color: black;
+}
+
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin-bottom: 30px;
+}
+
+
+img#cart{
+    position: relative;    
+    left: 36px;    
+}
+
+
+img.pasos {
     
+    background: #e0a0e6;
+    width: 80px;
+    height: 80px;
+    /* position: relative; */
+    right: 119px;
+    border-radius: 57px;
+    background-position: 50% 50%;
+    background-size: 35px;
+    border: solid 1px #e0a0e6;
+    position: absolute;
+    top: -42px;
     
 }
+
 
 .footer{
     background: black;
@@ -80,55 +183,129 @@ h2.font-weight-light {
     border-top: solid 1px #F86464;
 }
 
-h5{
-    color:white;
-}
-
-li.nav-item {
-    color: black;
-}
-
-
-ul.nav.nav-pills {
-    margin-left: 30%;
-    margin-right:-1%
-}
-
-h5.card-title {
-    color: black;
-}
-
-h1{
-    font-size: 4em;
-    line-height: 1;    
-    text-transform: uppercase;
-    font-weight: 700;    
-    margin-bottom: 0.35em;
-
-}
-
-.contenedor{
-    position: relative;
-    display: inline-block;
-    text-align: center;
-}
-
-.texto-encima{
-    position: absolute;
-    top: calc(50% - 111px);
-    right: 4%;
-    text-align: center;
-    color:white;
-    text-align: right;
-    line-height: inherit;    
-    text-decoration: none;
-    cursor: pointer;
+.card.text-center {
+    padding: 30px;
+    padding-top: 30px;
     
 }
 
-#cart{
-    position: absolute;
-    left:68%;
-    bottom:10px;
-    width: 30px;
+.card.text-center {
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+}
+
+
+
+@media (max-width: 419px) and (min-width: 0px)
+{
+
+    h1{
+        font-size: 3em;
+    }
+
+    strong{        
+        font-size: 1em;
+    }
+ 
+
+    .texto-encima{
+        top: calc(60% - 111px);
+        right: 5%; 
+            
+    }
+
+    #frame-testimonios {
+        height: 60vh;
+        position:relative;
+        
+    }
+
+    #imagen{
+        height: 45vh;
+        
+    }
+    
+    img.pasos {
+        right: 38%;
+    }
+
+}
+
+@media (max-width: 767px) and (min-width: 420px)
+{
+    h1{
+        font-size: 3em;
+    }
+
+    strong{        
+        font-size: 1em;
+    }
+
+    #frame-testimonios {
+        height: 60vh;
+    }
+
+    img.pasos {   
+        right: 1.5px;
+    }
+
+    .card.text-center {
+        padding: 3%;
+        padding-top: 20px;
+    }
+
+    h5.card-title {
+        font-size:80%;
+    }
+
+    img.pasos {
+        right: 20%;
+    }
+
+}
+
+
+@media (max-width: 991px) and (min-width: 768px)
+{
+
+    h1{
+        font-size: 4em;
+    }
+
+    strong{        
+        font-size: 1.5em;
+    }
+
+    .card.text-center {
+        padding: 4%;
+        padding-top: 20px;
+    }
+
+    img.pasos {
+        right: 30%;
+    }
+
+
+}
+
+@media (max-width: 1199px) and (min-width: 992px)
+{
+
+    h1{
+        font-size: 5em;
+    }
+
+    strong{        
+        font-size: 2em;
+    }
+
+    .texto-encima {
+        right: 8%;
+        top: calc(58% - 111px);    
+    }
+
+}
+
+@media (max-width: 5000px) and (min-width: 1200px)
+{
+
 }
