@@ -1,0 +1,64 @@
+
+
+<div class="form-group">
+    <label for="exampleInputEmail1">Nombre</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" [(ngModel)]="nombre">    
+</div>
+<div class="form-group">
+    <label for="exampleInputPassword1">Valor</label>
+    <input type="number" class="form-control" id="exampleInputPassword1" [(ngModel)]="valor">
+</div>
+<button type="submit" class="btn btn-primary" (click)="Guardar()">Guardar</button>
+
+
+<!-- <input type="text" >
+<input type="number" [(ngModel)]="valor">
+<div (click)="Guardar()">Guardar</div>
+<div class="prueba" *ngFor="let i of datos">    
+    <div class="item">{{i.nombre}} debe pagar con iva: {{i.valor | currency}} + 19% serian: {{(i.valor * 19/100) + i.valor | currency }}</div>
+</div> -->
+
+<table class="table">
+    <thead class="thead-dark">
+    <tr>       
+        <th scope="col">Nombre</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Valor con Iva</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let i of datos">
+
+        <!-- Mostrar y ocultar elementos con *ngIf
+        <td *ngIf = "i.valor >= 200">{{i.nombre}}</td>
+        <td *ngIf = "i.valor >=200">{{i.valor | currency}}</td>
+        <td *ngIf = "i.valor >=200">{{(i.valor * 19/100) + i.valor | currency }}</td> -->
+
+        <td >{{i.nombre}}</td>
+        <td >{{i.valor | currency}}</td>
+        <td >{{(i.valor * 19/100) + i.valor | currency }}</td>
+        
+    </tr>
+    </tbody>
+</table>
+
+
+<!--Diseño para que una estructura se repita con numeros-->
+<!-- <div class="marco" *ngFor="let i of[0,1,2,3,4,5,6,7,8,9]">
+    <div class="item">Saida</div>
+    <div class="item">Granados</div>
+</div> --> 
+
+<!--Diseño para que una estructura se repita con nombres-->
+<!--<div class="marco" *ngFor="let i of[{nombre:'Saida'},{nombre:'Teo'}]">
+    <div class="item">{{i.nombre}}</div>
+    <div class="item">Granados</div>
+</div>-->
+
+<div class="marco" *ngFor="let i of datodeprueba">
+    <div class="item">{{i.nombre}}</div>
+    <div class="item">Granados</div>
+</div>
+
+
+

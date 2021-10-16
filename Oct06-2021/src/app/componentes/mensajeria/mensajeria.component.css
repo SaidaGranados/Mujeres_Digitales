@@ -1,0 +1,22 @@
+.mensajeria {    
+    background: #00ddff;
+    color: white;
+    font-size: 12px;
+    height: 46px;
+    padding-top: 12px;
+    padding-left: 16px;
+    border-radius: 8px;
+    margin: 2px;
+    font-style: italic;
+    position: relative;
+    width: 410px;
+    height: 85px;
+    float: right;
+    right: 1px;
+}
+
+#padremensajes{
+    position: absolute;
+    width: 100px;
+    right: 1px;
+}

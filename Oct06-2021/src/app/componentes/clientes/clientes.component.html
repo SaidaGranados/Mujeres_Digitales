@@ -1,0 +1,9 @@
+<p>clientes works!</p>
+
+<input type="text" [(ngModel)]= "firstname" placeholder="Nombre">
+<input type="text" [(ngModel)]= "email" placeholder="Email">
+<input type="text" [(ngModel)]= "age" placeholder="Edad">
+
+<div (click)="Guardar()">Guardar</div>
+
+<div *ngFor = "let i of datosusuarios">{{i.firstname}}</div>

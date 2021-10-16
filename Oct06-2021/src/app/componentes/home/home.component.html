@@ -1,0 +1,43 @@
+
+<app-carrusel></app-carrusel>
+<div style="color:red">{{minuevonombre}}</div>
+contenido del home
+
+<!--Visualizacion datos desde html-->
+{{datouser.nombreusuario}}
+
+
+
+<!--Formatos-->
+{{fecha | date}} 
+{{fecha |date:'medium'}}
+{{fecha |date:'yyyy'}}
+{{fecha |date:'MM'}}
+{{fecha |date:'dd'}}
+{{fecha |date:'dd-MM-yyyy'}}
+{{fecha |date:'yyyy-MM-dd HH:mm:ss'}}
+{{fecha |date:'yyyy-MM-dd hh:mm:ss'}}
+{{misusuarios | json}}
+{{misusuarios.apellido}}
+{{valor | currency:'EUR'}}
+{{valor * 10 | currency:'USD':true:'1.5-5'}}
+
+<!--Pasar informacion desde el html al ts-->
+<input type="text" [(ngModel)]="nombreusuario">
+<input type="text" [(ngModel)]="direccion">
+<input type="text" [(ngModel)]="telefono">
+<div (click)="cargardatos()">cargar</div>
+
+<input type="text" [(ngModel)]="dato1">
+<input type="text" [(ngModel)]="dato2">
+
+{{nombreusuario}}
+
+<div (click)="guardar()">Guardar</div>
+
+
+
+
+
+
+<app-footer></app-footer>

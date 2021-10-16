@@ -1,0 +1,18 @@
+.item {
+    font-size: 12px;
+    color: blue;
+    font-style: italic;
+    border: solid 1px gray;
+    margin-top: 1px;
+    height: 18px;
+    padding-left: 6px;
+}
+
+.marco {
+    border: solid 1px gray;
+    margin: 8px;
+    background: pink;
+    width: 120px;
+    float: left;
+}
+
